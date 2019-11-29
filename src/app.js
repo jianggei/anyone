@@ -5,7 +5,7 @@ const path = require('path')
 const router = require('./router/router')
 const server = http.createServer((req , res) => {
     
-    const filePath = path.join(conf.root , req.url) //req.url 代表端口后面的路劲
+    const filePath = path.join(conf.root , req.url) 
     router(req, res , filePath)
 
 })

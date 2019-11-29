@@ -34,7 +34,6 @@ module.exports = async (req , res , filePath) => {
     catch(err){
         res.statusCode = 404
         res.setHeader('Content-type' , 'text/html');
-    
         res.end(`no such file or directory\n ${err}`);
         return;
 
