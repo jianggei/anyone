@@ -1,0 +1,25 @@
+{
+  "name": "anyone",
+  "version": "1.0.0",
+  "description": "Static  Web Servers",
+  "main": "events.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jianggei/anyone.git"
+  },
+  "author": "xiaojiang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jianggei/anyone/issues"
+  },
+  "homepage": "https://github.com/jianggei/anyone#readme",
+  "devDependencies": {
+    "chalk": "^3.0.0"
+  },
+  "dependencies": {
+    "handlebars": "^4.5.3"
+  }
+}
